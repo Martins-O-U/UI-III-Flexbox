@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	/* background-color: aqua;  */
+	width: 900px;
+	margin: 0 auto;
+	/* border: solid grey 1px */
+}
+header nav{
+	display: flex;
+	justify-content: space-between
+}
+
+header nav a {
+	text-decoration: none;
+	color: #c7c7c7
+}
+
+h1{
+	font-size: 1.5em
+}
+
+.container header nav a {
+	display: flex;
+	justify-content: space-between
+}
+
+section h2{
+	padding-top: 10px;
+	margin: 0 0 10px 0;
+}
+
+button{
+	background: #fff;
+	border: solid 1px #000;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 15px
+}
+
+#features{
+	width: 48%;
+	padding: 15px;
+	border: solid black 1px;
+	background-color: #f4f3f4;
+
+}
+
+.services {
+	margin-top: 20px;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.section-one {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.lower{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;	
+}
+ul {
+	list-style-type: square;
+	margin-left: 20px;
+	padding: 20px 0px;
+}
+
+ul li{
+	padding: 5px 0px
+}
+
+.about{
+	width: 48%;
+}
+.services-info-img{
+	/* margin-left: 10px; */
+	width: 100%
+
+}
+
+.footer-content {
+    padding: 10px 0;
+    text-align:center;
+}
