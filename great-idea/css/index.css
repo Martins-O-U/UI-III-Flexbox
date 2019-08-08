@@ -66,23 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container{
-	/* background-color: aqua;  */
 	width: 900px;
 	margin: 0 auto;
-	/* border: solid grey 1px */
-}
-header nav{
-	display: flex;
-	justify-content: space-between
-}
-
-header nav a {
-	text-decoration: none;
-	color: #c7c7c7
-}
-
-h1{
-	font-size: 1.5em
+	border: solid grey 1px
 }
 
 .container header nav a {
@@ -90,9 +76,73 @@ h1{
 	justify-content: space-between
 }
 
+header nav{
+	display: flex;
+	justify-content: space-between
+}
+
+h1{
+	font-size: 1.5em
+}
+
+.services-header-img{
+	width: 100%;
+	margin: 20px 0px;
+}
+
 section h2{
-	padding-top: 10px;
-	margin: 0 0 10px 0;
+padding-top: 10px;
+margin: 0 0 10px 0;
+}
+
+.footer-content {
+    padding: 10px 0;
+    text-align:center;
+}
+
+#header{
+	margin-left: 70px
+
+}
+.inno-img{
+	width: 448px;
+	float: left;
+	text-align: center;
+	margin-bottom:50px;
+	margin-top: 50px
+}
+
+.section-two {
+	width: 420px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.inno-img h1{
+	font-size: 80px;
+	margin-top: 50px
+}
+
+.inno-img button{
+	padding: 10px;
+}
+
+.middle-img{
+	width: 100%
+}
+
+.third-div{
+	display: flex;
+	justify-content: space-between
+}
+
+.section-three{
+	width: 285px;
+	padding-right: 1px;
+	padding-bottom: 10px;
+	margin: 5px
 }
 
 button{
@@ -108,7 +158,6 @@ button{
 	padding: 15px;
 	border: solid black 1px;
 	background-color: #f4f3f4;
-
 }
 
 .services {
@@ -116,6 +165,7 @@ button{
 	justify-content: space-between;
 	padding-bottom: 20px;
 }
+
 .section-one {
 	display: flex;
 	justify-content: space-between;
@@ -124,9 +174,11 @@ button{
 
 .lower{
 	display: flex;
+	margin-top: 30px;
 	justify-content: space-between;
 	padding-bottom: 30px;	
 }
+
 ul {
 	list-style-type: square;
 	margin-left: 20px;
@@ -140,13 +192,7 @@ ul li{
 .about{
 	width: 48%;
 }
+
 .services-info-img{
-	/* margin-left: 10px; */
 	width: 100%
-
-}
-
-.footer-content {
-    padding: 10px 0;
-    text-align:center;
 }
